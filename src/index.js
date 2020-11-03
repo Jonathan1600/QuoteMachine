@@ -53,7 +53,7 @@ class QuoteBox extends React.Component {
           <p id='author'>
            - {this.state.author}
           </p>
-          <Buttons handleClick={this.handleClick}/>
+          <Buttons handleClick={this.handleClick} quote={this.state.quote} author={this.state.author}/>
         </div>
       )
     }
